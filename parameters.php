@@ -2,12 +2,28 @@
 
 namespace Deployer;
 
-set('repository', require __DIR__ . '/repository.php');
+$config = require __DIR__ . '/config.php';
 
-set('shared_dirs', [
+set('repository', $config['repository']);
+
+set('shared_dirs', $config['shared']['dirs']);
+set('shared_files', $config['shared']['files']);
+
+set('copy_dirs', $config['copy']['dirs']);
+set('copy_files', $config['copy']['files']);
+
+set('upload_dirs', $config['upload']['dirs']);
+set('upload_files', $config['upload']['files']);
+
+// Laravel writable dirs
+set('writable_dirs', [
+    'bootstrap/cache',
     'storage',
-]);
-
-set('shared_files', [
-    '.env',
+    'storage/app',
+    'storage/app/public',
+    'storage/framework',
+    'storage/framework/cache',
+    'storage/framework/sessions',
+    'storage/framework/views',
+    'storage/logs',
 ]);

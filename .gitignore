@@ -1,3 +1,4 @@
 /.idea
 /hosts.yml
-/repository.php
+/config.php
+/custom_tasks.php

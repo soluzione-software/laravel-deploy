@@ -1,4 +1,5 @@
 local:
+  branch: "master"
   hostname: "localhost"
   user: "root"
   port: 22

@@ -2,7 +2,7 @@
 
 namespace Deployer;
 
-task('deploy', [
+task('deploy:install', [
     'deploy:info',
     'deploy:prepare',
     'deploy:lock',
@@ -19,6 +19,7 @@ task('deploy', [
     'artisan:key:generate',
     'artisan:storage:link',
     'artisan:migrate',
+    'artisan:db:seed',
     'artisan:view:clear',
     'artisan:config:clear',
     'artisan:route:clear',

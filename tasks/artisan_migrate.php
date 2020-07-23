@@ -3,5 +3,5 @@
 namespace Deployer;
 
 task('artisan:migrate', function () {
-    run('{{bin/php}} {{release_path}}/artisan migrate');
+    run('{{bin/php}} {{release_path}}/artisan migrate --force');
 });
