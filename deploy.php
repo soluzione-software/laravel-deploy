@@ -2,7 +2,7 @@
 
 namespace Deployer;
 
-require 'recipe/common.php';
+require 'vendor/deployer/deployer/recipe/common.php';
 
 require __DIR__ . '/parameters.php';
 require __DIR__ . '/hosts.php';
