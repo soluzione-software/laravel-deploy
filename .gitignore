@@ -1,4 +1,6 @@
 /.idea
+/vendor
 /hosts.yml
 /config.php
 /custom_tasks.php
+/composer.lock

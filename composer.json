@@ -1,0 +1,8 @@
+{
+    "name": "yuriy-martini/laravel-deploy",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "deployer/deployer": "^6.8"
+    }
+}
