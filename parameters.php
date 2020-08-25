@@ -6,6 +6,8 @@ $config = require __DIR__ . '/config.php';
 
 set('repository', $config['repository']);
 
+set('keep_releases', $config['keep_releases']);
+
 set('shared_dirs', $config['shared']['dirs']);
 set('shared_files', $config['shared']['files']);
 

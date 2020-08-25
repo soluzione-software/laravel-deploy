@@ -3,6 +3,8 @@
 return [
     'repository' => 'git@github.com:{username}/{repository}.git',
 
+    'keep_releases' => 5,
+
     'shared' => [
         'dirs' => [
             'storage',
