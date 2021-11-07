@@ -9,5 +9,5 @@ This package aims to simplify the deployment process of Laravel applications usi
 ## Quickstart
 
 ```bash
-composer create yuriy-martini/laravel-deploy
+composer create soluzione-software/laravel-deploy
 ```
