@@ -1,5 +1,5 @@
 {
-    "name": "yuriy-martini/laravel-deploy",
+    "name": "soluzione-software/laravel-deploy",
     "license": "MIT",
     "require": {
         "php": "^7.2",
